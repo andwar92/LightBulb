@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LightBulb</title>
+</head>
+<body>
+    <img id= "image" onclick="turnOnOff()" src="LightBulbOff.JPG">
+    <script>
+
+function turnOnOff() {
+    let image = document.getElementById('image');
+    if (image.src.match("LightBulbOn"))
+        image.src = 
+    "LightBulbOff.JPG";
+        else image.src = 
+        "LightBulbOn.JPG";
+}
+    </script>
+
+</body>
+</html>
